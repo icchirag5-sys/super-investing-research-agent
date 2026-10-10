@@ -1,0 +1,4 @@
+# Runtime: only needed to read PDF documents. Markdown/text input and both model providers use the standard library.
+pypdf>=4.0.0
+# Tests
+pytest>=8.0.0

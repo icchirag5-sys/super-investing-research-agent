@@ -1,0 +1,22 @@
+# secrets
+.env
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# generated, large or re-creatable files
+output/*_evidence_pack.txt
+logs/runs/*_evidence.txt
+
+# Source documents: ignored by default so you decide whether to publish them.
+# Delete the next two lines if you WANT the research pack in your repository.
+research_pack/*
+!research_pack/README.md
